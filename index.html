@@ -5,40 +5,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ambalavana Silks</title>
   <style>
-    body {
-      font-family: 'Segoe UI', Arial, sans-serif;
+    /* Global box-sizing */
+    * {
+      box-sizing: border-box;
       margin: 0;
       padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
       background: linear-gradient(135deg, #fff8f0, #fdfdfd);
       color: #222;
       text-align: center;
+      line-height: 1.0;
     }
+
     .flyer {
       border-radius: 12px;
       padding: 25px;
       margin: 0 auto;
+      width: 100%;
       max-width: 900px;
       box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+      background: #fff;
     }
+
     h1 {
       color: #b71c1c;
       font-size: 36px;
       font-weight: bold;
       margin: 10px 0;
     }
+
     h2 {
       font-size: 22px;
-      margin-bottom: 25px;
       color: #444;
       font-weight: bold;
+      margin-bottom: 25px;
     }
+
     .highlight {
       font-weight: bold;
       font-size: 24px;
       color: #3b3b98;
       margin: 25px 0;
-      line-height: 1.8;
+      line-height: 1.5;
     }
+
+    /* Social Boxes */
     .social-box {
       display: flex;
       align-items: center;
@@ -50,33 +64,41 @@
       color: #fff;
       text-decoration: none;
       margin: 18px auto;
-      width: 95%;
+      width: 100%;
       max-width: 380px;
       transition: all 0.3s ease;
     }
+
     .social-box img {
       width: 30px;
       height: 30px;
       margin-right: 12px;
     }
+
     .whatsapp {
       background-color: #25D366;
     }
+
     .whatsapp:hover {
       background-color: #1ebe57;
     }
+
     .instagram {
       background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
     }
+
     .instagram:hover {
       opacity: 0.9;
     }
+
     p.note {
       font-size: 20px;
       color: #444;
       margin: 10px 0 25px;
       font-weight: bold;
     }
+
+    /* Features List */
     .features {
       text-align: left;
       margin: 25px auto;
@@ -84,6 +106,7 @@
       list-style: none;
       max-width: 600px;
     }
+
     .features li {
       margin: 15px 0;
       font-size: 20px;
@@ -92,17 +115,20 @@
       align-items: center;
       color: #333;
     }
+
     .features img {
       width: 28px;
       height: 28px;
       margin-right: 14px;
     }
+
     .footer {
       margin-top: 30px;
       font-weight: bold;
       color: #b71c1c;
       font-size: 20px;
     }
+
     .address {
       margin-top: 18px;
       font-size: 18px;
@@ -110,19 +136,21 @@
       font-weight: bold;
     }
 
+    /* Images Responsive */
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
     /* Responsive for Mobile */
     @media (max-width: 600px) {
-      body {
-        padding: 0;
-      }
       .flyer {
         padding: 18px;
         border-radius: 0;
         box-shadow: none;
-        width: 100%;
       }
       h1 {
-        font-size: 28px;
+        font-size: 26px;
       }
       h2 {
         font-size: 18px;
@@ -183,5 +211,3 @@
   </div>
 </body>
 </html>
-
-
